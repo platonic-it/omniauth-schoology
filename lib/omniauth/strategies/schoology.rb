@@ -8,7 +8,7 @@ module OmniAuth
       option :client_options, {
         http_method: 'get',
         site: 'https://api.schoology.com/v1',
-        authorize_url: 'https://www.schoology.com/oauth/authorize',
+        authorize_url: 'https://app.schoology.com/oauth/authorize',
         token_url: 'https://api.schoology.com/v1/oauth/request_token'
       }
 
